@@ -10,6 +10,7 @@ $bio = "I started PHP!";
 $software = "My software I am using is PHPStorm!";
 $first_name = "Ilyas";
 $last_name = "Aslam";
+$vom = "Mac Sierra 10.23.80"
 ?>
 <br>
 <?php echo $number;?>
@@ -44,3 +45,7 @@ $last_name = "Aslam";
 <?php echo $subtract + $divide;?>
 <br>
 <?php echo $multiple + $divide;?>
+<br>
+<?php echo 'My macintosh version is $vom';?>
+
+
