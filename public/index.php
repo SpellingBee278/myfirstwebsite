@@ -10,8 +10,4 @@
 <body>
 <a href="website">My website</a>
 </body>
-<<<<<<< HEAD
 </html>
-=======
-</html>
->>>>>>> origin/master
