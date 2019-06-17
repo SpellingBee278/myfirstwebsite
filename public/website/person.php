@@ -6,15 +6,15 @@ class Person
         return 'Hello';
 
     }
-     public function sayHello()
+     public function sayHello(){
+        return'Goodbye';
+     
+     
+     }
 
 
 
-    {
-
-
-
-    }
+    
 
 
 }
