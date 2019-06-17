@@ -2,37 +2,46 @@
 
 class Person
 {
-    public function sayGoodbye(){
+    public function sayGoodbye()
+    {
         return 'Hello';
 
     }
-     public function sayHello(){
-         return 'Goodbye';
 
-     }
-     public function walk(){
+    public function sayHello()
+    {
+
+        return 'Goodbye';
+
+
+    }
+
+    public function walk()
+    {
         return 'Walking past bye';
 
-
-     }
-     public function newPerson(){
-
-
-     }
-     public function adopt(){
-        return 'Adopted a fish';
-
-     }
-     public function buy(){
-        return 'Bought fish food';
-
-     }
-    public function run(){
-        return 'The person ran';
 
     }
 
 
+    public function adopt()
+    {
+
+        return 'Adopted a fish';
+
+    }
+
+    public function buy()
+    {
+        return 'Bought fish food';
+
+    }
+
+    public function run()
+    {
+        return 'The person ran';
+
+    }
 }
 
 $person = new Person();
@@ -50,6 +59,3 @@ echo $person->buy()  . "<br>";;
 echo 'The person has bought fish food from a pet shop'  . "<br>";;
 echo $person->run() . "<br>";;
 echo 'The person is running again' . "<br>";;
-
-
-
