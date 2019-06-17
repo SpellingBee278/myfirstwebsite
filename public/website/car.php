@@ -85,5 +85,6 @@ $Car->pickUpPassenger(2);
 $Car->drive();
 $Car->stop();
 $Car->pickUpPassenger(2);
-$Car->pickUpPassenger(1);
+$Car->dropOffPassenger(3);
+
 
