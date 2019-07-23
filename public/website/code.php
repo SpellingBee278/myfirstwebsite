@@ -1,5 +1,6 @@
 <?php
 echo 'This is the echo';
+ob_clean();
 
 $number = 7+2;
 $subtract = 9-1;
