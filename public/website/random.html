@@ -1,0 +1,55 @@
+<html>
+
+<body>
+<script>
+    // calling x after definition
+    var x = 5;
+    document.write(x, "\n");
+
+    // calling y after definition
+    let y = 10;
+    document.write(y, "\n");
+
+    // calling var z before definition will return undefined
+    document.write(z, "\n");
+    var z = 2;
+
+    // calling let a before definition will give error
+    document.write(a);
+    let a = 3;
+</script>
+<script>
+    var declaration
+
+    console.log(declaration) // undefined
+
+    declaration = 'This is an initialization'
+
+
+
+</script>
+<script>
+
+    function discountPrices (prices, discount) {
+        var discounted = undefined
+        var i = undefined
+        var discountedPrice = undefined
+        var finalPrice = undefined
+
+        discounted = []
+        for (var i = 0; i < prices.length; i++) {
+            discountedPrice = prices[i] * (1 - discount)
+            finalPrice = Math.round(discountedPrice * 100) / 100
+            discounted.push(finalPrice)
+        }
+
+        console.log(i) // 3
+        console.log(discountedPrice) // 150
+        console.log(finalPrice) // 150
+
+        return discounted
+    }
+</script>
+</body>
+
+</html>
