@@ -31,8 +31,7 @@ echo 'This is a car It has 5 seats and 4 doors';
 <script>
     document.write(' The car is a BMW');
     document.write('<br>');
-    let car = "Golf";
-    let model = "Volkswagen";
+
 
 
 
