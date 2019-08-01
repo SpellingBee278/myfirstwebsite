@@ -1,4 +1,13 @@
 <?php
+?>
+<html>
+<head>
+    <body>
+<?php include('lib/header.inc.php'); ?>
+</body>
+</head>
+</html>
+<?php
 
 class Person
 {

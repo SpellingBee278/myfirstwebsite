@@ -1,3 +1,6 @@
+<?php include('lib/header.inc.php'); ?>
+
+
 <?php
 
 class Animal {

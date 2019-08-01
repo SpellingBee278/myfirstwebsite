@@ -1,3 +1,5 @@
+<?php include('lib/header.inc.php'); ?>
+
 <?php
 echo'hello';
 ob_clean();

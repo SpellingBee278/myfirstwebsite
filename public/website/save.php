@@ -1,3 +1,6 @@
+<?php include('lib/header.inc.php'); ?>
+
+
 <?php
 echo 'This is save.php, if you pressed the submit button in mix.php you will get to this page';
 

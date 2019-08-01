@@ -1,5 +1,8 @@
+<?php include('lib/header.inc.php'); ?>
+
+
 <?php
-echo 'This is a php website with Javascript code too';
+echo 'This is a php website';
 ?>
 <form method="post" action="save.php">
      Name:<br>
