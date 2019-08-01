@@ -1,5 +1,5 @@
 <?php include('lib/header.inc.php'); ?>
-
+<hr>
 
 <?php
 echo 'This is a php website';

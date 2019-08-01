@@ -1,5 +1,8 @@
 <?php include('lib/header.inc.php'); ?>
+<hr>
+
 <?php
+
 echo 'This is the echo';
 ob_clean();
 

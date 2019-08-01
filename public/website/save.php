@@ -1,4 +1,5 @@
 <?php include('lib/header.inc.php'); ?>
+<hr>
 
 
 <?php

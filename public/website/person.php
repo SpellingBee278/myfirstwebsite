@@ -1,14 +1,9 @@
 <?php
 ?>
-<html>
-<head>
-    <body>
-<?php include('lib/header.inc.php'); ?>
-</body>
-</head>
-</html>
-<?php
 
+<?php include('lib/header.inc.php'); ?>
+<hr>
+<?php
 class Person
 {
     public function sayGoodbye()

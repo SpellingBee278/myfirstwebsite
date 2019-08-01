@@ -1,6 +1,6 @@
 <?php
 echo 'This is a php web used with php code which mostly have variables';
-
+ob_clean();
 $addition = 2+2;
 $subtraction = 4-1;
 $multiplication = 6*10;

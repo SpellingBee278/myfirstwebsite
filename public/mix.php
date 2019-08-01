@@ -1,5 +1,10 @@
 <?php
+?>
+<hr>
+<?php
+
 echo 'This is a php website with Javascript code too';
+ob_clean();
 ?>
 <form method="post" action="save.php">
      Name:<br>
