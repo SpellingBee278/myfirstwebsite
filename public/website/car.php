@@ -2,6 +2,7 @@
 
 
 <?php
+// This is a comment this comment means that we've put a logo on every php file...
 
 class car{
 

@@ -1,6 +1,4 @@
 <?php include('lib/header.inc.php'); ?>
-
-
 <?php
 echo 'This is the echo';
 ob_clean();
