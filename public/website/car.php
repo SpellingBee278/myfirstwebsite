@@ -1,8 +1,13 @@
 <?php include('lib/header.inc.php'); ?>
+
+<hr>
+
+
+
+
 <hr>
 
 <?php
-
 // This is a comment this comment means that we've put a logo on every php file...
 
 class car{
@@ -91,5 +96,18 @@ $Car->drive();
 $Car->stop();
 $Car->pickUpPassenger(2);
 $Car->dropOffPassenger(3);
+?>
+
+
+
+
+
+
+
+
+
+
+
+<?php include('lib/footer.inc.php');
 
 
