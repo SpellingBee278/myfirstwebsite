@@ -8,6 +8,6 @@
     <title>CoolCoderKid</title>
 </head>
 <body>
-<a href="website">on your left is the link to the website - Link to my website</a>
+<a href="website"> - Link to my website</a>
 </body>
 </html>
